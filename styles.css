@@ -35,21 +35,22 @@ hr {
 	width: 320px;
 }
 
-.button1 { 
+.button1 {
 	border: none;
 	background-color: rgb(212, 175, 123);
 	color: white;
 }
-.button2 { 
+.button2 {
 	border-color: rgb(0, 0, 0);
 	background-color: white;
-	color: rgb(54, 47, 140); 
+	color: rgb(54, 47, 140);
 
 }
 
-input[type=text] {
+input {
 	font-family: arial;
-	text-align: center;
+	text-align: left;
+	padding-left: 100px;
 	width: 40%;
 	border: none;
 	height: 15px;
@@ -57,15 +58,15 @@ input[type=text] {
 
 .picture {
 	font-family: arial;
-	background-image: 
+	background-image:
 		linear-gradient(
 			rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)
-		),	
+		),
 		url('image/building.png');
 	background-repeat: no-repeat;
-	float: right;	
-	width: 297px; 
+	float: right;
+	width: 297px;
 	height: 623px;
 	color: white;
 	background-color: transparent;
@@ -81,4 +82,9 @@ input[type=text] {
 	margin: 4px;
 	border-radius: 50px;
 	width: 110px;
+}
+
+
+a {
+	text-decoration: none;
 }
